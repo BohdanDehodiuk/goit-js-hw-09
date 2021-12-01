@@ -14,10 +14,10 @@ const refs = {
 refs.startBtn.disabled = true;
 
 let timerId = null;
-let selectDate;
+let selectDate = 0;
 let timeLeft;
 
-const options = {
+let options = {
   enableTime: true,
   time_24hr: true,
   defaultDate: new Date(),
